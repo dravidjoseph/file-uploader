@@ -1,0 +1,59 @@
+.btn:focus, .upload-btn:focus{
+  outline: 0 !important;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #a40000;
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  margin-top: 80px;
+}
+
+.upload-btn {
+  color: lightgrey;
+  background-color: #a40000;
+  border: none;
+}
+
+.upload-btn:hover,
+.upload-btn:focus,
+.upload-btn:active,
+.upload-btn.active {
+  color: #ffffff;
+  background-color: #d3d3d3;
+  border: none;
+}
+
+h2 {
+  margin-top: 15px;
+  color: #68757E;
+}
+
+.panel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#upload-input {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 450px;
+  }
+}
